@@ -1,0 +1,13 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0D0D0B; /* Evita el flash blanco al cargar */
+}
+
+* {
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
