@@ -11,6 +11,7 @@ import { Testimonials } from './components/Testimonials';
 import { Footer } from './components/footer';
 import { Decalogo } from './components/Decalogo';
 import { Legislacion } from './components/Legislacion';
+import { PeritajesDetalle } from './components/PeritajesDetalles';
 
 // 2. Contenedor Principal (Arquitectura de fondo)
 const MainWrapper = styled.div`
@@ -101,6 +102,8 @@ function App() {
         <Decalogo />
 
         <Legislacion />
+
+        <PeritajesDetalle />
 
         {/* Libro de Visitantes / Testimonios */}
         <Testimonials />

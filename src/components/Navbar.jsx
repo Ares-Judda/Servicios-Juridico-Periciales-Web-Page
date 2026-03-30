@@ -87,6 +87,7 @@ const Navbar = () => {
       label: 'PERITACIONES',
       links: [
         { n: 'PERITAJES', h: '#servicios' },
+        { n: 'SOBRE LOS PERITAJES', h: '#sobre-peritajes' },
         { n: 'INVESTIGACIONES', h: '#investigaciones' },
         { n: 'AVANCES TECNOLÓGICOS', h: '#avances' },
         { n: 'ESPECIALIDADES FORENSES', h: '#servicios' }
