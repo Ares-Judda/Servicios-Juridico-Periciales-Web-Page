@@ -4,11 +4,12 @@ import styled from 'styled-components';
 // 1. Importación de Componentes Modulares
 import { theme } from './theme';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero from './components/hero';
 import { Specialties } from './components/Specialties';
 import { About } from './components/About';
 import { Testimonials } from './components/Testimonials';
-import { Footer } from './components/Footer';
+import { Footer } from './components/footer';
+import { Decalogo } from './components/Decalogo';
 
 // 2. Contenedor Principal (Arquitectura de fondo)
 const MainWrapper = styled.div`
@@ -95,6 +96,8 @@ function App() {
 
         {/* Reseña Curricular / Sobre Mí */}
         <About />
+
+        <Decalogo />
 
         {/* Libro de Visitantes / Testimonios */}
         <Testimonials />
