@@ -77,7 +77,7 @@ const Navbar = () => {
     institucional: {
       label: 'NOSOTROS',
       links: [
-        { n: 'BIENVENIDOS', h: '#inicio' },
+        { n: 'BIENVENIDOS', h: '#' },
         { n: 'RESEÑA CURRICULAR', h: '#sobre-mi' },
         { n: 'DECALOGO DEL PERITO', h: '#decalogo' },
         { n: 'LEGISLACIÓN', h: '#legislacion' }
@@ -111,7 +111,7 @@ const Navbar = () => {
       </Logo>
 
       <NavList>
-        <NavItem><a href="#inicio" style={{all:'unset'}}>INICIO</a></NavItem>
+        <NavItem><a href="#" style={{all:'unset'}}>INICIO</a></NavItem>
         
         {Object.keys(menuItems).map((key) => (
           <NavItem 

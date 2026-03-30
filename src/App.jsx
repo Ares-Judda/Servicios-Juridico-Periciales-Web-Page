@@ -10,6 +10,7 @@ import { About } from './components/About';
 import { Testimonials } from './components/Testimonials';
 import { Footer } from './components/footer';
 import { Decalogo } from './components/Decalogo';
+import { Legislacion } from './components/Legislacion';
 
 // 2. Contenedor Principal (Arquitectura de fondo)
 const MainWrapper = styled.div`
@@ -98,6 +99,8 @@ function App() {
         <About />
 
         <Decalogo />
+
+        <Legislacion />
 
         {/* Libro de Visitantes / Testimonios */}
         <Testimonials />
